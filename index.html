@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>유창의 블로그</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <!-- Header -->
+    <header class="w-full border-b py-4 px-6 bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-4xl mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">유창의 블로그</h1>
+        <nav class="space-x-4">
+          <a href="/" class="text-sm text-gray-700 hover:underline">홈</a>
+          <a href="#posts" class="text-sm text-gray-700 hover:underline">글 목록</a>
+          <a href="#about" class="text-sm text-gray-700 hover:underline">소개</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-4xl mx-auto mt-10 px-6">
+      <section id="posts">
+        <h2 class="text-2xl font-semibold mb-6">📌 최근 글</h2>
+
+        <article class="mb-6 p-4 border rounded-lg hover:shadow bg-white transition">
+          <h3 class="text-lg font-bold">첫 번째 포스트 제목</h3>
+          <p class="text-sm text-gray-600 mt-1">2025.04.17</p>
+          <p class="mt-2 text-gray-700">
+            이건 첫 번째 블로그 글의 요약입니다. 여기에 내용을 짧게 적어두고, 상세 보기로 넘어가게 할 수 있습니다.
+          </p>
+          <a href="post1.html" class="text-blue-500 text-sm mt-2 inline-block hover:underline">자세히 보기 →</a>
+        </article>
+
+        <article class="mb-6 p-4 border rounded-lg hover:shadow bg-white transition">
+          <h3 class="text-lg font-bold">두 번째 글</h3>
+          <p class="text-sm text-gray-600 mt-1">2025.04.15</p>
+          <p class="mt-2 text-gray-700">
+            두 번째 글 요약입니다. 이런 식으로 정리하면 블로그 글 목록으로 쓸 수 있습니다.
+          </p>
+          <a href="post2.html" class="text-blue-500 text-sm mt-2 inline-block hover:underline">자세히 보기 →</a>
+        </article>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="mt-16">
+        <h2 class="text-2xl font-semibold mb-4">🙋 소개</h2>
+        <p class="text-gray-700 leading-relaxed">
+          안녕하세요, 유창입니다. 개발과 투자, AI에 관심 많고 블로그로 생각을 정리해보려 합니다.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 py-8 mt-20 border-t">
+      &copy; 2025 유창의 블로그. 모든 권리 보유.
+    </footer>
+  </body>
+</html>
